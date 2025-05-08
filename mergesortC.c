@@ -49,7 +49,7 @@ void printArray(int arr[], int tamanho) {
 }
 
 int main() {
-    int arr[] = {38, 27, 43, 3, 9, 82, 10};
+    int arr[] = {"Digite aqui a lista de números a serem ordenados"};
     int tamanho = sizeof(arr) / sizeof(arr[0]);
 
     mergeSort(arr, 0, tamanho - 1);
