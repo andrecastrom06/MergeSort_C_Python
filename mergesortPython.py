@@ -24,6 +24,7 @@ def merge(esquerda, direita):
     resultado.extend(direita[j:])
     return resultado
 
-lista = [38, 27, 43, 3, 9, 82, 10]
+lista = ["Digite aqui a lista de números a serem ordenados"]
+
 ordenada = merge_sort(lista)
 print(ordenada)
