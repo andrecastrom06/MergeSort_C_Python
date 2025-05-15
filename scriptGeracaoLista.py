@@ -6,7 +6,7 @@ def gerar_lista(tamanho):
 def salvar_lista_em_arquivo(lista, nome_arquivo):
     with open(nome_arquivo, 'w') as f:
         for numero in lista:
-            f.write(f"{numero}\n")
+            f.write(f"{numero},\n")
 
 def menu():
     print("Escolha o tamanho da lista:")

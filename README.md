@@ -50,3 +50,9 @@ Merge Sort é um algoritmo de ordenação estável com complexidade **O(n log n)
 - Há limitação de memória
 - A lista já está quase ordenada
 - Em sistemas embarcados
+
+## Como Rodar?
+
+- Rode o arquivo scriptGeracaoLista.py
+- Cole a lista gerada no local indicado pela frase "Digite aqui a lista de números a serem ordenados"
+- Rode o arquivo de ordenação mergesort
